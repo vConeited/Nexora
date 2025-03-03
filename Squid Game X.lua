@@ -32,7 +32,7 @@ do
     Title = "🔗 Copy Discord server link!",
     Description = "Enter the discord for other updates!",
     Callback = function()
-        print("Discord")
+        setclipboard("Paste here your link to get the key")
     end
 })
 
