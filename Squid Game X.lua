@@ -32,11 +32,17 @@ do
     Title = "🔗 Copy Discord server link!",
     Description = "Enter the discord for other updates!",
     Callback = function()
-        setclipboard("Paste here your link to get the key")
+        setclipboard("https://discord.gg/uDHC6UDEKY")
     end
 })
 
-copyLinkToClipboard(myLink)
+Tabs.Credits:AddButton({
+    Title = "⭐ Copy Youtube channel link!",
+    Description = "See the Youtube Channel to see the showcases!",
+    Callback = function()
+        setclipboard("Coming soon")
+    end
+})
 
 SaveManager:SetLibrary(Fluent)
 InterfaceManager:SetLibrary(Fluent)
