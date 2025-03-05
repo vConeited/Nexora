@@ -97,7 +97,7 @@ SubmitButton.MouseButton1Click:Connect(function()
     if KeySystem == "Your Key" then   
 screenGui:Destroy()
  
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vConeited/Nexora/refs/heads/main/Squid%20Game%20X.lua?token=GHSAT0AAAAAAC74IE3Z4WB72BLWKDZGXXT6Z6GDASA"))()
+loadstring(game:HttpGet(""))()
   
   end
 end)
